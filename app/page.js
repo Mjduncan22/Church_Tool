@@ -1,26 +1,53 @@
 'use client'
 
-import { useState, useEffect } from 'react';
-import wardData from './ward_data.json';
+import { useState } from 'react';
 
 export default function WardMemorizer() {
-  const [mode, setMode] = useState('menu'); // 'menu', 'quiz', 'practice'
+  const [mode, setMode] = useState('upload'); // 'upload', 'menu', 'quiz', 'practice'
   const [deck, setDeck] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isProcessing, setIsProcessing] = useState(false);
   
   // Quiz State
   const [userInput, setUserInput] = useState('');
-  const [feedback, setFeedback] = useState(null); // 'correct' or 'incorrect'
+  const [feedback, setFeedback] = useState(null);
   const [mistakes, setMistakes] = useState(0);
 
   // Practice State
   const [isFlipped, setIsFlipped] = useState(false);
 
-  useEffect(() => {
-    // Shuffle deck on load
-    const shuffled = [...wardData].sort(() => 0.5 - Math.random());
-    setDeck(shuffled);
-  }, []);
+  // File Upload Handler
+  const handleFileUpload = async (e) => {
+    e.preventDefault();
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setIsProcessing(true);
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        // Shuffle the newly processed data and start the app
+        const shuffled = [...result.data].sort(() => 0.5 - Math.random());
+        setDeck(shuffled);
+        setMode('menu');
+      } else {
+        alert("Error processing PDF: " + result.error);
+      }
+    } catch (err) {
+      alert("Failed to connect to the server.");
+    } finally {
+      setIsProcessing(false);
+    }
+  };
 
   const currentPerson = deck[currentIndex];
 
@@ -57,7 +84,6 @@ export default function WardMemorizer() {
   };
 
   const needsPractice = () => {
-    // Move current card to the back of the deck
     const updatedDeck = [...deck];
     const card = updatedDeck.splice(currentIndex, 1)[0];
     updatedDeck.push(card);
@@ -65,10 +91,34 @@ export default function WardMemorizer() {
     setIsFlipped(false);
   };
 
+  // --- UPLOAD SCREEN ---
+  if (mode === 'upload') {
+    return (
+      <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+        <h1 className="text-3xl font-bold mb-4 text-gray-800">Ward Memorizer Setup</h1>
+        <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-md text-center">
+          <p className="text-gray-600 mb-6">Upload the official PDF Ward Directory to generate your flashcards.</p>
+          <label className="block w-full cursor-pointer bg-blue-50 text-blue-700 border-2 border-dashed border-blue-300 hover:bg-blue-100 transition p-6 rounded-lg font-semibold">
+            {isProcessing ? 'Processing PDF... Please wait.' : 'Click to Upload PDF'}
+            <input 
+              type="file" 
+              accept=".pdf" 
+              className="hidden" 
+              onChange={handleFileUpload} 
+              disabled={isProcessing}
+            />
+          </label>
+        </div>
+      </div>
+    );
+  }
+
+  // --- MENU SCREEN ---
   if (mode === 'menu') {
     return (
       <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-        <h1 className="text-3xl font-bold mb-8 text-gray-800">Ward Memorizer</h1>
+        <h1 className="text-3xl font-bold mb-2 text-gray-800">Ward Memorizer</h1>
+        <p className="text-gray-500 mb-8">{deck.length} members loaded</p>
         <div className="space-y-4 w-full max-w-xs">
           <button 
             onClick={() => setMode('quiz')}
@@ -82,19 +132,24 @@ export default function WardMemorizer() {
           >
             Practice Mode (Flashcards)
           </button>
+          <button 
+            onClick={() => {setMode('upload'); setDeck([]);}}
+            className="w-full bg-gray-200 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-300 transition mt-8"
+          >
+            Upload a different PDF
+          </button>
         </div>
       </div>
     );
   }
 
+  // --- CARD INTERFACE ---
   if (!currentPerson) return <div>Loading...</div>;
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-      
-      {/* Header */}
       <div className="w-full max-w-md flex justify-between items-center mb-6">
-        <button onClick={() => setMode('menu')} className="text-gray-500 hover:text-gray-800">
+        <button onClick={() => setMode('menu')} className="text-gray-500 hover:text-gray-800 font-semibold">
           ← Back to Menu
         </button>
         <span className="text-sm font-semibold text-gray-500">
@@ -102,14 +157,10 @@ export default function WardMemorizer() {
         </span>
       </div>
 
-      {/* Card Container */}
       <div className="relative w-full max-w-sm h-96 perspective-1000">
-        <div 
-          className={`w-full h-full transition-transform duration-500 transform-style-3d ${
-            isFlipped && mode === 'practice' ? 'rotate-y-180' : ''
-          }`}
-        >
-          {/* Front of Card */}
+        <div className={`w-full h-full transition-transform duration-500 transform-style-3d ${isFlipped && mode === 'practice' ? 'rotate-y-180' : ''}`}>
+          
+          {/* Front */}
           <div className="absolute w-full h-full backface-hidden bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col items-center">
             <img 
               src={`/${currentPerson.image}`} 
@@ -127,7 +178,7 @@ export default function WardMemorizer() {
             )}
           </div>
 
-          {/* Back of Card (Practice Mode Only) */}
+          {/* Back */}
           <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-white rounded-2xl shadow-xl p-8 flex flex-col justify-center items-center text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-2">{currentPerson.full_name}</h2>
             <p className="text-lg text-gray-600 mb-1">Prefers: {currentPerson.preferred_name}</p>
@@ -137,7 +188,6 @@ export default function WardMemorizer() {
         </div>
       </div>
 
-      {/* Quiz Controls */}
       {mode === 'quiz' && (
         <form onSubmit={handleGuessSubmit} className="mt-8 w-full max-w-sm">
           <input
@@ -159,7 +209,6 @@ export default function WardMemorizer() {
         </form>
       )}
 
-      {/* Practice Controls */}
       {mode === 'practice' && isFlipped && (
         <div className="mt-8 w-full max-w-sm flex space-x-4">
           <button 
@@ -176,7 +225,6 @@ export default function WardMemorizer() {
           </button>
         </div>
       )}
-
     </div>
   );
 }
