@@ -3,6 +3,8 @@ import json
 import re
 import os
 import sys
+from pathlib import Path
+import fitz
 
 def process_directory(pdf_path, base_output="public"):
     # Use the PDF filename to create a specific semester folder
@@ -130,5 +132,5 @@ def process_directory(pdf_path, base_output="public"):
 
 if __name__ == "__main__":
     # Hardcoded path to bypass all argument and default fallback issues
-    pdf_target = "data/Fall Semester 2026.pdf"
+    pdf_target = Path(__file__).resolve().parent / "data" / "Fall Semester 2026.pdf"
     process_directory(pdf_target)
