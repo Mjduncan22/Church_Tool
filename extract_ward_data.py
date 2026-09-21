@@ -129,5 +129,5 @@ def process_directory(pdf_path, base_output="public"):
     print(f"Extracted {len(ward_data)} members into {image_folder}/")
 
 if __name__ == "__main__":
-    pdf_target = sys.argv[1] if len(sys.argv) > 1 else "Fall Semester 2026.pdf"
+    pdf_target = sys.argv[1] if len(sys.argv) > 1 else "data/Fall Semester 2026.pdf"
     process_directory(pdf_target)
