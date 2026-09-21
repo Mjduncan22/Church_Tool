@@ -24,7 +24,7 @@ jobs:
 
       - name: Run extraction script
         run: |
-          python extract_ward_data.py
+          python extract_ward_data.py data/Fall_Semester_2026.pdf
 
       - name: Commit and push generated files back to repo
         uses: stefanzweifel/git-auto-commit-action@v5
