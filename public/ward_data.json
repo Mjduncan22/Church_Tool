@@ -1,1003 +1,1010 @@
 [
     {
-        "full_name": "Kathryn Marie Hair",
+        "full_name": "Hair, Kathryn Marie",
         "preferred_name": "Kathryn",
         "location": "South Jordan, UT",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_21.jpeg"
+        "image": "Fall_Semester_2026/face_p0_0.jpeg"
     },
     {
-        "full_name": "Kenzie Sue Haycock",
+        "full_name": "Haycock, Kenzie Sue",
         "preferred_name": "Kenzie",
         "location": "Meridian, ID",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_22.jpeg"
+        "image": "Fall_Semester_2026/face_p0_1.jpeg"
     },
     {
-        "full_name": "Ebony M Marshall",
+        "full_name": "Marshall, Ebony M",
         "preferred_name": "EBONY",
         "location": "Layton, UT",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_23.jpeg"
+        "image": "Fall_Semester_2026/face_p0_2.jpeg"
     },
     {
-        "full_name": "Tessa Mae Morey",
+        "full_name": "Morey, Tessa Mae",
         "preferred_name": "Tessa",
         "location": "Minden, NE",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_24.jpeg"
+        "image": "Fall_Semester_2026/face_p0_3.jpeg"
     },
     {
-        "full_name": "Kathryn Marie Hair",
+        "full_name": "Skelton, Tensley Paige",
         "preferred_name": "Tensley",
-        "location": "p",
+        "location": "Colorado Springs, CO",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_21.jpeg"
+        "image": "Fall_Semester_2026/face_p0_4.jpeg"
     },
     {
-        "full_name": "Kenzie Sue Haycock",
+        "full_name": "Young, Hallie Drew",
         "preferred_name": "Hallie",
         "location": "Meridian, ID",
         "apt": "1",
-        "image": "Fall_Semester_2026/face_p0_22.jpeg"
+        "image": "Fall_Semester_2026/face_p0_5.jpeg"
     },
     {
-        "full_name": "Tensley Paige Skelton",
+        "full_name": "Andra, Carter Loyd",
         "preferred_name": "Carter",
         "location": "Humansville, MO",
         "apt": "10",
-        "image": "Fall_Semester_2026/face_p0_11.jpeg"
+        "image": "Fall_Semester_2026/face_p0_6.jpeg"
     },
     {
-        "full_name": "Hallie Drew Young",
+        "full_name": "Coates, Adam Brigham",
         "preferred_name": "Adam",
         "location": "Springville, UT",
         "apt": "10",
-        "image": "Fall_Semester_2026/face_p0_12.jpeg"
+        "image": "Fall_Semester_2026/face_p0_7.jpeg"
     },
     {
-        "full_name": "Reed Bartl Gappmayer",
+        "full_name": "Gappmayer, Reed Bartl",
         "preferred_name": "Reed",
         "location": "Grace, ID",
         "apt": "10",
-        "image": "Fall_Semester_2026/face_p0_13.jpeg"
+        "image": "Fall_Semester_2026/face_p0_8.jpeg"
     },
     {
-        "full_name": "Owen Eugene Lawson",
+        "full_name": "Lawson, Owen Eugene",
         "preferred_name": "Owen",
         "location": "Melba, ID",
         "apt": "10",
-        "image": "Fall_Semester_2026/face_p0_25.jpeg"
+        "image": "Fall_Semester_2026/face_p0_9.jpeg"
     },
     {
-        "full_name": "Carter Loyd Andra",
+        "full_name": "Miller, Miles Dale",
         "preferred_name": "Miles",
         "location": "South Jordan, UT",
+        "apt": "10",
+        "image": "Fall_Semester_2026/face_p0_10.jpeg"
+    },
+    {
+        "full_name": "Skelton, Daniel Hulet",
+        "preferred_name": "Daniel",
+        "location": "Spanish Fork, UT",
         "apt": "10",
         "image": "Fall_Semester_2026/face_p0_11.jpeg"
     },
     {
-        "full_name": "Adam Brigham Coates",
-        "preferred_name": "Daniel",
-        "location": "Spanish Fork, UT",
-        "apt": "10",
-        "image": "Fall_Semester_2026/face_p0_12.jpeg"
-    },
-    {
-        "full_name": "Miles Dale Miller",
+        "full_name": "Barker, Bryce Heaton",
         "preferred_name": "Bryce",
         "location": "Warwick, RI",
         "apt": "11",
-        "image": "Fall_Semester_2026/face_p0_16.jpeg"
+        "image": "Fall_Semester_2026/face_p0_12.jpeg"
     },
     {
-        "full_name": "Daniel Hulet Skelton",
+        "full_name": "Bayless, Brenden",
         "preferred_name": "Brenden",
         "location": "Montesano, WA",
         "apt": "11",
-        "image": "Fall_Semester_2026/face_p0_17.jpeg"
+        "image": "Fall_Semester_2026/face_p0_13.jpeg"
     },
     {
-        "full_name": "Maxwell Cummings",
+        "full_name": "Cummings, Maxwell",
         "preferred_name": "Maxwell",
         "location": "Troy, MI",
         "apt": "11",
-        "image": "Fall_Semester_2026/face_p0_25.jpeg"
+        "image": "Fall_Semester_2026/face_p0_14.jpeg"
     },
     {
-        "full_name": "Connor Joseph Foutz",
+        "full_name": "Foutz, Connor Joseph",
         "preferred_name": "Connor",
         "location": "Bountiful, UT",
         "apt": "11",
-        "image": "Fall_Semester_2026/face_p0_18.jpeg"
+        "image": "Fall_Semester_2026/face_p0_15.jpeg"
     },
     {
-        "full_name": "Bryce Heaton Barker",
+        "full_name": "Hall, Winfield Ryan",
         "preferred_name": "Winfield",
         "location": "McMinnville, OR",
         "apt": "11",
         "image": "Fall_Semester_2026/face_p0_16.jpeg"
     },
     {
-        "full_name": "Brenden Bayless",
+        "full_name": "Harish, Rakshan",
         "preferred_name": "Rakshan",
-        "location": "Winter/Spring Track",
+        "location": "Unknown",
         "apt": "11",
         "image": "Fall_Semester_2026/face_p0_17.jpeg"
     },
     {
-        "full_name": "Caleb David Daniel",
+        "full_name": "Daniel, Caleb David",
         "preferred_name": "Caleb",
         "location": "Idaho Falls, ID",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_28.jpeg"
+        "image": "Fall_Semester_2026/face_p1_0.jpeg"
     },
     {
-        "full_name": "Travis Michael Richard Downs",
+        "full_name": "Downs, Travis Michael Richard",
         "preferred_name": "Travis",
         "location": "Calgary, AB",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_29.jpeg"
+        "image": "Fall_Semester_2026/face_p1_1.jpeg"
     },
     {
-        "full_name": "Lincoln K. Farnsworth",
+        "full_name": "Farnsworth, Lincoln K.",
         "preferred_name": "Lincoln",
-        "location": "Snowflake, AZ",
+        "location": "Unknown",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_30.jpeg"
+        "image": "Fall_Semester_2026/face_p1_2.jpeg"
     },
     {
-        "full_name": "Kyle Stephen Hicken",
+        "full_name": "Hicken, Kyle Stephen",
         "preferred_name": "Kyle",
         "location": "Lindon, UT",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_31.jpeg"
+        "image": "Fall_Semester_2026/face_p1_3.jpeg"
     },
     {
-        "full_name": "Caleb David Daniel",
+        "full_name": "Powell, Nian Wei",
         "preferred_name": "Nian",
-        "location": "West Jordan, UT",
+        "location": "Unknown",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_28.jpeg"
+        "image": "Fall_Semester_2026/face_p1_4.jpeg"
     },
     {
-        "full_name": "Travis Michael Richard Downs",
+        "full_name": "White Jr, Brian Matthew",
         "preferred_name": "Brian",
         "location": "Eagle Mountain, UT",
         "apt": "12",
-        "image": "Fall_Semester_2026/face_p1_29.jpeg"
+        "image": "Fall_Semester_2026/face_p1_5.jpeg"
     },
     {
-        "full_name": "Nian Wei Powell",
+        "full_name": "Blau, Hyrum Mitchell",
         "preferred_name": "Hyrum",
         "location": "Waynesville, MO",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_34.jpeg"
+        "image": "Fall_Semester_2026/face_p1_6.jpeg"
     },
     {
-        "full_name": "Brian Matthew White Jr",
+        "full_name": "Davis, Elijah Benjamin",
         "preferred_name": "Elijah",
         "location": "Grand Forks, ND",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_25.jpeg"
+        "image": "Fall_Semester_2026/face_p1_7.jpeg"
     },
     {
-        "full_name": "Jackson Charles Kuchinski",
+        "full_name": "Kuchinski, Jackson Charles",
         "preferred_name": "Jackson",
         "location": "Brigham City, UT",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_35.jpeg"
+        "image": "Fall_Semester_2026/face_p1_8.jpeg"
     },
     {
-        "full_name": "Conner William Moore",
+        "full_name": "Moore, Conner William",
         "preferred_name": "Conner",
         "location": "Sugar Land, TX",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_25.jpeg"
+        "image": "Fall_Semester_2026/face_p1_9.jpeg"
     },
     {
-        "full_name": "Hyrum Mitchell Blau",
+        "full_name": "Moore, Mason",
         "preferred_name": "mason",
-        "location": "Sugar Land, TX",
+        "location": "Unknown",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_34.jpeg"
+        "image": "Fall_Semester_2026/face_p1_10.jpeg"
     },
     {
-        "full_name": "Elijah Benjamin Davis",
+        "full_name": "Smith, Adam Michael",
         "preferred_name": "Adam",
         "location": "Buxton, ND",
         "apt": "13",
-        "image": "Fall_Semester_2026/face_p1_25.jpeg"
+        "image": "Fall_Semester_2026/face_p1_11.jpeg"
     },
     {
-        "full_name": "Mason Moore",
+        "full_name": "Chen, Darnell",
         "preferred_name": "Darnell",
         "location": "Lake Forest, CA",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_38.jpeg"
+        "image": "Fall_Semester_2026/face_p1_12.jpeg"
     },
     {
-        "full_name": "Adam Michael Smith",
+        "full_name": "Chen, Gabriel",
         "preferred_name": "Gabe",
         "location": "Lake Forest, CA",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_39.jpeg"
+        "image": "Fall_Semester_2026/face_p1_13.jpeg"
     },
     {
-        "full_name": "Logan Krogh",
+        "full_name": "Krogh, Logan",
         "preferred_name": "Logan",
         "location": "Kennesaw, GA",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_40.jpeg"
+        "image": "Fall_Semester_2026/face_p1_14.jpeg"
     },
     {
-        "full_name": "Carson Elliott Powell",
+        "full_name": "Powell, Carson Elliott",
         "preferred_name": "Carson",
         "location": "Meridian, ID",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_41.jpeg"
+        "image": "Fall_Semester_2026/face_p1_15.jpeg"
     },
     {
-        "full_name": "Darnell Chen",
+        "full_name": "Powell, Jacob Samuel",
         "preferred_name": "Jake",
         "location": "Meridian, ID",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_38.jpeg"
+        "image": "Fall_Semester_2026/face_p1_16.jpeg"
     },
     {
-        "full_name": "Gabriel Chen",
+        "full_name": "Surratt, Lucas K",
         "preferred_name": "Lucas",
         "location": "Great Falls, MT",
         "apt": "14",
-        "image": "Fall_Semester_2026/face_p1_39.jpeg"
+        "image": "Fall_Semester_2026/face_p1_17.jpeg"
     },
     {
-        "full_name": "Eli Raiden BoBo",
+        "full_name": "BoBo, Eli Raiden",
         "preferred_name": "Eli",
-        "location": "Arvada, CO",
+        "location": "Unknown",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_46.jpeg"
+        "image": "Fall_Semester_2026/face_p2_0.jpeg"
     },
     {
-        "full_name": "David Lorenzo Diaz",
+        "full_name": "Diaz, David Lorenzo",
         "preferred_name": "David",
         "location": "Logan, UT",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_47.jpeg"
+        "image": "Fall_Semester_2026/face_p2_1.jpeg"
     },
     {
-        "full_name": "Joshua Christian Kakuschke",
+        "full_name": "Kakuschke, Joshua Christian",
         "preferred_name": "Josh",
         "location": "Lake Tomahawk, WI",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_48.jpeg"
+        "image": "Fall_Semester_2026/face_p2_2.jpeg"
     },
     {
-        "full_name": "Andrew Scott Petersen",
+        "full_name": "Petersen, Andrew Scott",
         "preferred_name": "Andrew",
         "location": "Lehi, UT",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_49.jpeg"
+        "image": "Fall_Semester_2026/face_p2_3.jpeg"
     },
     {
-        "full_name": "Eli Raiden BoBo",
+        "full_name": "Smith, Jonathan Patrick",
         "preferred_name": "Jonathan",
         "location": "Mona, UT",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_46.jpeg"
+        "image": "Fall_Semester_2026/face_p2_4.jpeg"
     },
     {
-        "full_name": "David Lorenzo Diaz",
+        "full_name": "Stamps, Cooper James",
         "preferred_name": "Cooper",
         "location": "Arvada, CO",
         "apt": "15",
-        "image": "Fall_Semester_2026/face_p2_47.jpeg"
+        "image": "Fall_Semester_2026/face_p2_5.jpeg"
     },
     {
-        "full_name": "Jonathan Patrick Smith",
+        "full_name": "Cottingham, Graeme Thierry Heller",
         "preferred_name": "Graeme",
         "location": "Chesterfield, VA",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_52.jpeg"
+        "image": "Fall_Semester_2026/face_p2_6.jpeg"
     },
     {
-        "full_name": "Cooper James Stamps",
+        "full_name": "Jeppsen, Kenyan Caleb",
         "preferred_name": "Kenyan",
         "location": "Moseley, VA",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_53.jpeg"
+        "image": "Fall_Semester_2026/face_p2_7.jpeg"
     },
     {
-        "full_name": "Joshua Todd Mohlman",
+        "full_name": "Mohlman, Joshua Todd",
         "preferred_name": "Joshua",
         "location": "Hillsboro, OR",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_54.jpeg"
+        "image": "Fall_Semester_2026/face_p2_8.jpeg"
     },
     {
-        "full_name": "Nathan Earl Nicholes",
+        "full_name": "Nicholes, Nathan Earl",
         "preferred_name": "Nathan",
         "location": "Ely, NV",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_55.jpeg"
+        "image": "Fall_Semester_2026/face_p2_9.jpeg"
     },
     {
-        "full_name": "Graeme Thierry Heller Cottingham",
+        "full_name": "Riendeau, Steven Joseph",
         "preferred_name": "Steven",
         "location": "Enumclaw, WA",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_52.jpeg"
+        "image": "Fall_Semester_2026/face_p2_10.jpeg"
     },
     {
-        "full_name": "Kenyan Caleb Jeppsen",
+        "full_name": "Royle, Gary Dylan Thomas",
         "preferred_name": "Dylan",
         "location": "Lake Forest, CA",
         "apt": "16",
-        "image": "Fall_Semester_2026/face_p2_53.jpeg"
+        "image": "Fall_Semester_2026/face_p2_11.jpeg"
     },
     {
-        "full_name": "Steven Joseph Riendeau",
+        "full_name": "Conger, Bronson Danger",
         "preferred_name": "Bronson",
         "location": "Vancouver, WA",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_56.jpeg"
+        "image": "Fall_Semester_2026/face_p2_12.jpeg"
     },
     {
-        "full_name": "Gary Dylan Thomas Royle",
+        "full_name": "Hinds, Dallin",
         "preferred_name": "Dallin",
         "location": "Brighton, MI",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_58.jpeg"
+        "image": "Fall_Semester_2026/face_p2_13.jpeg"
     },
     {
-        "full_name": "Cameron Joshua Howe",
+        "full_name": "Howe, Cameron Joshua",
         "preferred_name": "Cameron",
         "location": "Orem, UT",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_59.jpeg"
+        "image": "Fall_Semester_2026/face_p2_14.jpeg"
     },
     {
-        "full_name": "Jackson Josh Howe",
+        "full_name": "Howe, Jackson Josh",
         "preferred_name": "Jackson",
         "location": "Howell, MI",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_60.jpeg"
+        "image": "Fall_Semester_2026/face_p2_15.jpeg"
     },
     {
-        "full_name": "Bronson Danger Conger",
+        "full_name": "Smyth, Nathan Spencer",
         "preferred_name": "Nathan",
         "location": "Royse City, TX",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_57.jpeg"
+        "image": "Fall_Semester_2026/face_p2_16.jpeg"
     },
     {
-        "full_name": "Dallin Hinds",
+        "full_name": "Terry, Gabriel",
         "preferred_name": "Gabe",
         "location": "Idaho Falls, ID",
         "apt": "17",
-        "image": "Fall_Semester_2026/face_p2_58.jpeg"
+        "image": "Fall_Semester_2026/face_p2_17.jpeg"
     },
     {
-        "full_name": "Isaac Bruce Duncan",
+        "full_name": "Duncan, Isaac Bruce",
         "preferred_name": "Isaac",
         "location": "West Richland, WA",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_65.jpeg"
+        "image": "Fall_Semester_2026/face_p3_0.jpeg"
     },
     {
-        "full_name": "Michael Jared Duncan",
+        "full_name": "Duncan, Michael Jared",
         "preferred_name": "Michael",
         "location": "Rexburg, ID",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_66.jpeg"
+        "image": "Fall_Semester_2026/face_p3_1.jpeg"
     },
     {
-        "full_name": "Samuel Bentley Gehring",
+        "full_name": "Gehring, Samuel Bentley",
         "preferred_name": "Sam",
         "location": "Centerville, UT",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_67.jpeg"
+        "image": "Fall_Semester_2026/face_p3_2.jpeg"
     },
     {
-        "full_name": "Aaron James Smyth",
+        "full_name": "Smyth, Aaron James",
         "preferred_name": "Aaron",
         "location": "Royse City, TX",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_68.jpeg"
+        "image": "Fall_Semester_2026/face_p3_3.jpeg"
     },
     {
-        "full_name": "Isaac Bruce Duncan",
+        "full_name": "Stark, Samuel Elias",
         "preferred_name": "Samuel",
         "location": "Centerville, UT",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_65.jpeg"
+        "image": "Fall_Semester_2026/face_p3_4.jpeg"
     },
     {
-        "full_name": "Michael Jared Duncan",
+        "full_name": "West, Marshall Wylde",
         "preferred_name": "Marshall",
         "location": "Idaho Falls, ID",
         "apt": "18",
-        "image": "Fall_Semester_2026/face_p3_66.jpeg"
+        "image": "Fall_Semester_2026/face_p3_5.jpeg"
     },
     {
-        "full_name": "Samuel Elias Stark",
+        "full_name": "Ensey, Layne",
         "preferred_name": "Layne",
         "location": "Dallas, OR",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_25.jpeg"
+        "image": "Fall_Semester_2026/face_p3_6.jpeg"
     },
     {
-        "full_name": "Marshall Wylde West",
+        "full_name": "Grambo, Cade Alan",
         "preferred_name": "Cade",
         "location": "Parma, ID",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_71.jpeg"
+        "image": "Fall_Semester_2026/face_p3_7.jpeg"
     },
     {
-        "full_name": "Jacob Harley Hanson",
+        "full_name": "Hanson, Jacob Harley",
         "preferred_name": "Jacob",
         "location": "Shalimar, FL",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_72.jpeg"
+        "image": "Fall_Semester_2026/face_p3_8.jpeg"
     },
     {
-        "full_name": "Jack David Parry",
+        "full_name": "Parry, Jack David",
         "preferred_name": "Jack",
         "location": "New Market, AL",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_25.jpeg"
+        "image": "Fall_Semester_2026/face_p3_9.jpeg"
     },
     {
-        "full_name": "Layne Ensey",
+        "full_name": "Ratliff, James Harrison",
         "preferred_name": "James",
         "location": "Stafford, VA",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_25.jpeg"
+        "image": "Fall_Semester_2026/face_p3_10.jpeg"
     },
     {
-        "full_name": "Cade Alan Grambo",
+        "full_name": "Ruchti, Justin R",
         "preferred_name": "Justin",
         "location": "American Fork, UT",
         "apt": "19",
-        "image": "Fall_Semester_2026/face_p3_71.jpeg"
+        "image": "Fall_Semester_2026/face_p3_11.jpeg"
     },
     {
-        "full_name": "James Harrison Ratliff",
+        "full_name": "Bell, Katelynn Sarah",
         "preferred_name": "Katie",
         "location": "Medford, OR",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_75.jpeg"
+        "image": "Fall_Semester_2026/face_p3_12.jpeg"
     },
     {
-        "full_name": "Justin R Ruchti",
+        "full_name": "Solis, Nalani Malia",
         "preferred_name": "Nalani",
         "location": "Laie, HI",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_76.jpeg"
+        "image": "Fall_Semester_2026/face_p3_13.jpeg"
     },
     {
-        "full_name": "Destiny Jade Stamp",
+        "full_name": "Stamp, Destiny Jade",
         "preferred_name": "Destiny",
         "location": "Saint Petersburg, FL",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_77.jpeg"
+        "image": "Fall_Semester_2026/face_p3_14.jpeg"
     },
     {
-        "full_name": "Gabriela Standing",
+        "full_name": "Standing, Gabriela",
         "preferred_name": "Gabriela",
         "location": "Fresno, CA",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_78.jpeg"
+        "image": "Fall_Semester_2026/face_p3_15.jpeg"
     },
     {
-        "full_name": "Katelynn Sarah Bell",
+        "full_name": "Tebbs, Katelyn",
         "preferred_name": "Katelyn",
         "location": "Little Elm, TX",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_75.jpeg"
+        "image": "Fall_Semester_2026/face_p3_16.jpeg"
     },
     {
-        "full_name": "Nalani Malia Solis",
+        "full_name": "Weber, Mia Grant",
         "preferred_name": "Mia",
         "location": "Frisco, TX",
         "apt": "2",
-        "image": "Fall_Semester_2026/face_p3_76.jpeg"
+        "image": "Fall_Semester_2026/face_p3_17.jpeg"
     },
     {
-        "full_name": "Jared Clifford King",
+        "full_name": "King, Jared Clifford",
         "preferred_name": "Jared",
         "location": "Mesa, AZ",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_82.jpeg"
+        "image": "Fall_Semester_2026/face_p4_0.jpeg"
     },
     {
-        "full_name": "Nathaniel Durham Moseley",
+        "full_name": "Moseley, Nathaniel Durham",
         "preferred_name": "Nathan",
-        "location": "Owens Cross Roads,",
+        "location": "Owens Cross Roads, AL",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_83.jpeg"
+        "image": "Fall_Semester_2026/face_p4_1.jpeg"
     },
     {
-        "full_name": "Kael Samuel Skeem",
+        "full_name": "Skeem, Kael Samuel",
         "preferred_name": "Kael",
         "location": "Omaha, NE",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_84.jpeg"
+        "image": "Fall_Semester_2026/face_p4_2.jpeg"
     },
     {
-        "full_name": "Stephen Ray Thatcher",
+        "full_name": "Thatcher, Stephen Ray",
         "preferred_name": "Stephen",
         "location": "Providence, UT",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_85.jpeg"
+        "image": "Fall_Semester_2026/face_p4_3.jpeg"
     },
     {
-        "full_name": "Jared Clifford King",
+        "full_name": "Watkins, Thayne Aaron",
         "preferred_name": "Thayne",
         "location": "Logan, UT",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_82.jpeg"
+        "image": "Fall_Semester_2026/face_p4_4.jpeg"
     },
     {
-        "full_name": "Nathaniel Durham Moseley",
+        "full_name": "Woolley, Nathan Ryan",
         "preferred_name": "Nathan",
         "location": "Clearfield, UT",
         "apt": "20",
-        "image": "Fall_Semester_2026/face_p4_83.jpeg"
+        "image": "Fall_Semester_2026/face_p4_5.jpeg"
     },
     {
-        "full_name": "Thayne Aaron Watkins",
+        "full_name": "Cheney, Lena",
         "preferred_name": "Lena",
         "location": "Fairfax, VA",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_88.jpeg"
+        "image": "Fall_Semester_2026/face_p4_6.jpeg"
     },
     {
-        "full_name": "Nathan Ryan Woolley",
+        "full_name": "Delaney, Adelyne Elizabeth",
         "preferred_name": "Adelyne",
         "location": "Fenton, MO",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_89.jpeg"
+        "image": "Fall_Semester_2026/face_p4_7.jpeg"
     },
     {
-        "full_name": "Elsie Farnsworth",
+        "full_name": "Farnsworth, Elsie",
         "preferred_name": "Elsie",
         "location": "Snowflake, AZ",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_90.jpeg"
+        "image": "Fall_Semester_2026/face_p4_8.jpeg"
     },
     {
-        "full_name": "Grace Arlene Gilbert",
+        "full_name": "Gilbert, Grace Arlene",
         "preferred_name": "Grace",
         "location": "Orem, UT",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_91.jpeg"
+        "image": "Fall_Semester_2026/face_p4_9.jpeg"
     },
     {
-        "full_name": "Lena Cheney",
+        "full_name": "Thomas, Katherine Ann",
         "preferred_name": "Katherine",
-        "location": "Syracuse, UT",
+        "location": "Unknown",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_88.jpeg"
+        "image": "Fall_Semester_2026/face_p4_10.jpeg"
     },
     {
-        "full_name": "Adelyne Elizabeth Delaney",
+        "full_name": "Wyatt, Ella",
         "preferred_name": "Ella",
         "location": "Anchorage, AK",
         "apt": "21",
-        "image": "Fall_Semester_2026/face_p4_89.jpeg"
+        "image": "Fall_Semester_2026/face_p4_11.jpeg"
     },
     {
-        "full_name": "Katherine Ann Thomas",
+        "full_name": "Cano, Anya Elisabeth",
         "preferred_name": "Anya",
         "location": "Sealy, TX",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_94.jpeg"
+        "image": "Fall_Semester_2026/face_p4_12.jpeg"
     },
     {
-        "full_name": "Ella Wyatt",
+        "full_name": "Howell, Maia",
         "preferred_name": "Howell",
         "location": "Aurora, CO",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_95.jpeg"
+        "image": "Fall_Semester_2026/face_p4_13.jpeg"
     },
     {
-        "full_name": "Cameron Oehlerking",
+        "full_name": "Oehlerking, Cameron",
         "preferred_name": "Cameron",
         "location": ",",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_96.jpeg"
+        "image": "Fall_Semester_2026/face_p4_14.jpeg"
     },
     {
-        "full_name": "Olivia Ray",
+        "full_name": "Ray, Olivia",
         "preferred_name": "Olivia",
         "location": "Abilene, TX",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_97.jpeg"
+        "image": "Fall_Semester_2026/face_p4_15.jpeg"
     },
     {
-        "full_name": "Anya Elisabeth Cano",
+        "full_name": "Ray, Rachel Julia",
         "preferred_name": "Rachel",
         "location": "Abilene, TX",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_94.jpeg"
+        "image": "Fall_Semester_2026/face_p4_16.jpeg"
     },
     {
-        "full_name": "Maia Howell",
+        "full_name": "Weinberg, Emma",
         "preferred_name": "Emma",
         "location": "Payson, UT",
         "apt": "22",
-        "image": "Fall_Semester_2026/face_p4_95.jpeg"
+        "image": "Fall_Semester_2026/face_p4_17.jpeg"
     },
     {
-        "full_name": "Isabel Waiyin Crews",
+        "full_name": "Crews, Isabel Waiyin",
         "preferred_name": "Isabel",
         "location": "Fremont, CA",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_105.jpeg"
+        "image": "Fall_Semester_2026/face_p5_0.jpeg"
     },
     {
-        "full_name": "Kaylani Dougal",
+        "full_name": "Dougal, Kaylani",
         "preferred_name": "Kaylani",
         "location": "West Valley City, UT",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_25.jpeg"
+        "image": "Fall_Semester_2026/face_p5_1.jpeg"
     },
     {
-        "full_name": "BellaSonae Dummar",
+        "full_name": "Dummar, BellaSonae",
         "preferred_name": "Bella",
         "location": "Rexburg, ID",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_106.jpeg"
+        "image": "Fall_Semester_2026/face_p5_2.jpeg"
     },
     {
-        "full_name": "Kaylie George",
+        "full_name": "George, Kaylie",
         "preferred_name": "Kaylie",
         "location": "North Las Vegas, NV",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_107.jpeg"
+        "image": "Fall_Semester_2026/face_p5_3.jpeg"
     },
     {
-        "full_name": "Isabel Waiyin Crews",
+        "full_name": "Stokes, Rachel",
         "preferred_name": "Rachel",
         "location": "Blackfoot, ID",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_105.jpeg"
+        "image": "Fall_Semester_2026/face_p5_4.jpeg"
     },
     {
-        "full_name": "Kaylani Dougal",
+        "full_name": "Withers, Adeline Grace",
         "preferred_name": "Adeline",
         "location": "Blackfoot, ID",
         "apt": "24",
-        "image": "Fall_Semester_2026/face_p5_25.jpeg"
+        "image": "Fall_Semester_2026/face_p5_5.jpeg"
     },
     {
-        "full_name": "Rachel Stokes",
+        "full_name": "Day, Alloa",
         "preferred_name": "Alloa",
         "location": "Mona, UT",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_110.jpeg"
+        "image": "Fall_Semester_2026/face_p5_6.jpeg"
     },
     {
-        "full_name": "Adeline Grace Withers",
+        "full_name": "Harris, Anna Natalie",
         "preferred_name": "Anna",
         "location": "Meridian, ID",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_111.jpeg"
+        "image": "Fall_Semester_2026/face_p5_7.jpeg"
     },
     {
-        "full_name": "Savana Nielsen",
+        "full_name": "Nielsen, Savana",
         "preferred_name": "Savana",
         "location": "San Diego, CA",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_112.jpeg"
+        "image": "Fall_Semester_2026/face_p5_8.jpeg"
     },
     {
-        "full_name": "Karli Liliana Parini",
+        "full_name": "Parini, Karli Liliana",
         "preferred_name": "Karli",
         "location": "Idaho Falls, ID",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_113.jpeg"
+        "image": "Fall_Semester_2026/face_p5_9.jpeg"
     },
     {
-        "full_name": "Alloa Day",
+        "full_name": "Smurthwaite, Carla Nicole",
         "preferred_name": "Carla",
         "location": "Rocklin, CA",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_110.jpeg"
+        "image": "Fall_Semester_2026/face_p5_10.jpeg"
     },
     {
-        "full_name": "Anna Natalie Harris",
+        "full_name": "Williams, Sydney Madison",
         "preferred_name": "Sydney",
         "location": "Nevada, MO",
         "apt": "26",
-        "image": "Fall_Semester_2026/face_p5_111.jpeg"
+        "image": "Fall_Semester_2026/face_p5_11.jpeg"
     },
     {
-        "full_name": "Carla Nicole Smurthwaite",
+        "full_name": "Bartholomew, Lisa Diane",
         "preferred_name": "Lisa",
         "location": "Mechanicsburg, PA",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_116.jpeg"
+        "image": "Fall_Semester_2026/face_p5_12.jpeg"
     },
     {
-        "full_name": "Sydney Madison Williams",
+        "full_name": "Brown, Allison Laura",
         "preferred_name": "Allison",
         "location": "Twin Falls, ID",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_25.jpeg"
+        "image": "Fall_Semester_2026/face_p5_13.jpeg"
     },
     {
-        "full_name": "Clara Alexandra Butler",
+        "full_name": "Butler, Clara Alexandra",
         "preferred_name": "Clara",
         "location": "Middleton, ID",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_117.jpeg"
+        "image": "Fall_Semester_2026/face_p5_14.jpeg"
     },
     {
-        "full_name": "Seoyoon Kim",
+        "full_name": "Kim, Seoyoon",
         "preferred_name": "seoyoon",
         "location": ",",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_102.jpeg"
+        "image": "Fall_Semester_2026/face_p5_15.jpeg"
     },
     {
-        "full_name": "Lisa Diane Bartholomew",
+        "full_name": "Saylor, Samaria Leigh",
         "preferred_name": "Sam",
         "location": "Blackstone, MA",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_116.jpeg"
+        "image": "Fall_Semester_2026/face_p5_16.jpeg"
     },
     {
-        "full_name": "Allison Laura Brown",
+        "full_name": "Vejnar, Paige",
         "preferred_name": "Paige",
         "location": "Brighton, CO",
         "apt": "3",
-        "image": "Fall_Semester_2026/face_p5_25.jpeg"
+        "image": "Fall_Semester_2026/face_p5_17.jpeg"
     },
     {
-        "full_name": "Emily Arnold",
+        "full_name": "Arnold, Emily",
         "preferred_name": "Emily",
         "location": "Cochran, GA",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_120.jpeg"
+        "image": "Fall_Semester_2026/face_p6_0.jpeg"
     },
     {
-        "full_name": "Olivia Rae Bernardi",
+        "full_name": "Bernardi, Olivia Rae",
         "preferred_name": "Olivia",
         "location": "Orem, UT",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_121.jpeg"
+        "image": "Fall_Semester_2026/face_p6_1.jpeg"
     },
     {
-        "full_name": "Elizabeth Frances Hancock",
+        "full_name": "Hancock, Elizabeth Frances",
         "preferred_name": "Elizabeth",
         "location": "Tolleson, AZ",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_2.jpeg"
     },
     {
-        "full_name": "Brooklin Murdoch",
+        "full_name": "Murdoch, Brooklin",
         "preferred_name": "Brooklin",
         "location": "Shelley, ID",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_122.jpeg"
+        "image": "Fall_Semester_2026/face_p6_3.jpeg"
     },
     {
-        "full_name": "Emily Arnold",
+        "full_name": "O\u2019Neill, Sydni Ann",
         "preferred_name": "Sydni",
         "location": "Phoenix, AZ",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_120.jpeg"
+        "image": "Fall_Semester_2026/face_p6_4.jpeg"
     },
     {
-        "full_name": "Olivia Rae Bernardi",
+        "full_name": "Peterson, Mariah",
         "preferred_name": "Mariah",
         "location": "Ogden, UT",
         "apt": "4",
-        "image": "Fall_Semester_2026/face_p6_121.jpeg"
+        "image": "Fall_Semester_2026/face_p6_5.jpeg"
     },
     {
-        "full_name": "Sydni Ann O\u2019Neill",
+        "full_name": "Allred, Genika Michelle",
         "preferred_name": "Genika",
         "location": "Nephi, UT",
         "apt": "5",
-        "image": "Fall_Semester_2026/face_p6_125.jpeg"
+        "image": "Fall_Semester_2026/face_p6_6.jpeg"
     },
     {
-        "full_name": "Isabella Socorro Cardona",
+        "full_name": "Bastian, Hanna L",
+        "preferred_name": "",
+        "location": "Tualatin, OR",
+        "apt": "5",
+        "image": "Fall_Semester_2026/face_p6_7.jpeg"
+    },
+    {
+        "full_name": "Cardona, Isabella Socorro",
         "preferred_name": "Bella",
         "location": "Boise, ID",
         "apt": "5",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_8.jpeg"
     },
     {
-        "full_name": "Emily Nicole Chamberlain",
+        "full_name": "Chamberlain, Emily Nicole",
         "preferred_name": "Emily",
         "location": "Sahuarita, AZ",
         "apt": "5",
-        "image": "Fall_Semester_2026/face_p6_127.jpeg"
+        "image": "Fall_Semester_2026/face_p6_9.jpeg"
     },
     {
-        "full_name": "Genika Michelle Allred",
+        "full_name": "Hong, Sun",
         "preferred_name": "Sun",
         "location": "Federal Way, WA",
         "apt": "5",
-        "image": "Fall_Semester_2026/face_p6_125.jpeg"
+        "image": "Fall_Semester_2026/face_p6_10.jpeg"
     },
     {
-        "full_name": "Hanna L Bastian",
+        "full_name": "Smithee, Kelsie Dianna",
         "preferred_name": "Kelsie",
         "location": "Boise, ID",
         "apt": "5",
-        "image": "Fall_Semester_2026/face_p6_126.jpeg"
+        "image": "Fall_Semester_2026/face_p6_11.jpeg"
     },
     {
-        "full_name": "Sun Hong",
+        "full_name": "Berrett, Annaliese Faith",
         "preferred_name": "Annaliese",
         "location": "Rock Springs, WY",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_12.jpeg"
     },
     {
-        "full_name": "Kelsie Dianna Smithee",
+        "full_name": "Bybee, Cora Teraimoana",
         "preferred_name": "Cora",
         "location": "El Dorado Hills, CA",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_13.jpeg"
     },
     {
-        "full_name": "Camorah Lee Dunning",
+        "full_name": "Dunning, Camorah Lee",
         "preferred_name": "Camorah",
         "location": "Grand Junction, CO",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_129.jpeg"
+        "image": "Fall_Semester_2026/face_p6_14.jpeg"
     },
     {
-        "full_name": "Karla Isabela Olvera Jimenez",
+        "full_name": "Olvera Jimenez, Karla Isabela",
         "preferred_name": "Karla",
         "location": "Aiken, SC",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_130.jpeg"
+        "image": "Fall_Semester_2026/face_p6_15.jpeg"
     },
     {
-        "full_name": "Annaliese Faith Berrett",
+        "full_name": "Parry, Lila Ann",
         "preferred_name": "Lila",
         "location": "New Market, AL",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_16.jpeg"
     },
     {
-        "full_name": "Cora Teraimoana Bybee",
+        "full_name": "Warner, Zoey Anne",
         "preferred_name": "Zoey",
         "location": "Idaho Falls, ID",
         "apt": "6",
-        "image": "Fall_Semester_2026/face_p6_25.jpeg"
+        "image": "Fall_Semester_2026/face_p6_17.jpeg"
     },
     {
-        "full_name": "Aiden Jake Bodily",
+        "full_name": "Bodily, Aiden Jake",
         "preferred_name": "Aiden",
         "location": "Meridian, ID",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_135.jpeg"
+        "image": "Fall_Semester_2026/face_p7_0.jpeg"
     },
     {
-        "full_name": "Ashton Richard Davis",
+        "full_name": "Davis, Ashton Richard",
         "preferred_name": "Ashton",
         "location": "Pasco, WA",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_25.jpeg"
+        "image": "Fall_Semester_2026/face_p7_1.jpeg"
     },
     {
-        "full_name": "Nathan Barlow Davis",
+        "full_name": "Davis, Nathan Barlow",
         "preferred_name": "Nathan",
         "location": "Pasco, WA",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_136.jpeg"
+        "image": "Fall_Semester_2026/face_p7_2.jpeg"
     },
     {
-        "full_name": "Samuel Levi John",
+        "full_name": "John, Samuel Levi",
         "preferred_name": "Sam",
         "location": "San Tan Valley, AZ",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_137.jpeg"
+        "image": "Fall_Semester_2026/face_p7_3.jpeg"
     },
     {
-        "full_name": "Aiden Jake Bodily",
+        "full_name": "Mayfield, Nathan McRae",
         "preferred_name": "Nate",
         "location": "Madison, AL",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_135.jpeg"
+        "image": "Fall_Semester_2026/face_p7_4.jpeg"
     },
     {
-        "full_name": "Ashton Richard Davis",
+        "full_name": "Potter, Nathan Paul",
         "preferred_name": "Nathan",
         "location": "Temple, TX",
         "apt": "7",
-        "image": "Fall_Semester_2026/face_p7_25.jpeg"
+        "image": "Fall_Semester_2026/face_p7_5.jpeg"
     },
     {
-        "full_name": "Nathan McRae Mayfield",
+        "full_name": "Burk, Nolan Mack",
         "preferred_name": "Nolan",
         "location": "Hemet, CA",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_139.jpeg"
+        "image": "Fall_Semester_2026/face_p7_6.jpeg"
     },
     {
-        "full_name": "Nathan Paul Potter",
+        "full_name": "Contreras, Benjamin",
         "preferred_name": "Benjamin",
         "location": "Milton, ON",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_140.jpeg"
+        "image": "Fall_Semester_2026/face_p7_7.jpeg"
     },
     {
-        "full_name": "Alden Michael Hansen",
+        "full_name": "Hansen, Alden Michael",
         "preferred_name": "Alden",
         "location": "Beaverton, OR",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_141.jpeg"
+        "image": "Fall_Semester_2026/face_p7_8.jpeg"
     },
     {
-        "full_name": "Brant Robson Jarvis",
+        "full_name": "Jarvis, Brant Robson",
         "preferred_name": "Brant",
         "location": "Calgary, AB",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_142.jpeg"
+        "image": "Fall_Semester_2026/face_p7_9.jpeg"
     },
     {
-        "full_name": "Nolan Mack Burk",
+        "full_name": "Jarvis, Derek Ryan",
         "preferred_name": "Derek",
-        "location": "Fall/Winter Track",
+        "location": "*,",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_139.jpeg"
+        "image": "Fall_Semester_2026/face_p7_10.jpeg"
     },
     {
-        "full_name": "Benjamin Contreras",
+        "full_name": "Skelton, Orson",
         "preferred_name": "Orson",
-        "location": "Argentina Bah\u00eda",
+        "location": "Colorado Springs, CO",
         "apt": "8",
-        "image": "Fall_Semester_2026/face_p7_140.jpeg"
+        "image": "Fall_Semester_2026/face_p7_11.jpeg"
     },
     {
-        "full_name": "Derek Ryan Jarvis",
+        "full_name": "Cobb, Evan Nathaniel",
         "preferred_name": "Evan",
         "location": "Clute, TX",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_144.jpeg"
+        "image": "Fall_Semester_2026/face_p7_12.jpeg"
     },
     {
-        "full_name": "Orson Skelton",
+        "full_name": "Delaney, Michael Isaac",
         "preferred_name": "Isaac",
         "location": "Fenton, MO",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_145.jpeg"
+        "image": "Fall_Semester_2026/face_p7_13.jpeg"
     },
     {
-        "full_name": "Jaden Lucas Galloway",
+        "full_name": "Galloway, Jaden Lucas",
         "preferred_name": "Jaden",
         "location": "Blackfoot, ID",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_146.jpeg"
+        "image": "Fall_Semester_2026/face_p7_14.jpeg"
     },
     {
-        "full_name": "Jacob Thomas Gano",
+        "full_name": "Gano, Jacob Thomas",
         "preferred_name": "Jacob",
-        "location": "Yakima, WA",
+        "location": "Unknown",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_147.jpeg"
+        "image": "Fall_Semester_2026/face_p7_15.jpeg"
     },
     {
-        "full_name": "Evan Nathaniel Cobb",
+        "full_name": "Huddleston, Austin",
         "preferred_name": "Austin",
         "location": "Missouri City, TX",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_144.jpeg"
+        "image": "Fall_Semester_2026/face_p7_16.jpeg"
     },
     {
-        "full_name": "Michael Isaac Delaney",
+        "full_name": "McClanahan, Joshua Warren",
         "preferred_name": "Josh",
         "location": "Cabot, AR",
         "apt": "9",
-        "image": "Fall_Semester_2026/face_p7_145.jpeg"
+        "image": "Fall_Semester_2026/face_p7_17.jpeg"
     }
 ]
