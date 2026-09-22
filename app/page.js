@@ -217,8 +217,9 @@ export default function WardStudy() {
         <header className="flex flex-col gap-5 border-b border-slate-800 pb-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-400">Fall Semester 2026</p>
-            <h1 className="mt-2 text-4xl font-semibold tracking-tight text-white">Ward Study Hall</h1>
-            <p className="mt-2 max-w-xl text-sm text-slate-400">Learn faces at your own pace, then test what sticks.</p>
+            <h1 className="mt-2 text-4xl font-semibold tracking-tight text-white">55th Ward Memorize Tool</h1>
+            <p className="mt-2 max-w-xl text-sm text-slate-400">Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.</p>
+            <p className="mt-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">Isaiah 43:1</p>
           </div>
           <div className="flex gap-3 text-sm">
             <div className="rounded-xl border border-slate-800 bg-slate-900 px-4 py-3">
