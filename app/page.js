@@ -186,9 +186,7 @@ export default function WardStudy() {
     if (!memorizeMember || !memorizeInput.trim()) return;
     const answer = memorizeInput.trim().toLowerCase();
     const expected = memorizeMember.full_name.toLowerCase();
-    const isCorrect = answer === expected
-      || answer === memorizeMember.preferred_name?.toLowerCase()
-      || answer === memorizeMember.full_name.split(',')[0].toLowerCase();
+    const isCorrect = answer === expected;
     setScores((current) => {
       const previous = current[memorizeMember.full_name] || { attempts: 0, correct: 0 };
       return {
@@ -200,14 +198,7 @@ export default function WardStudy() {
       };
     });
     setMemorizeInput('');
-    if (isCorrect) {
-      setMemorizeFeedback('Correct');
-      return;
-    }
-    setMemorizeFeedback(null);
-    setMemorizeQueue((current) => current.length > 1
-      ? [...current.slice(1), current[0]]
-      : current);
+    setMemorizeFeedback(isCorrect ? 'Correct' : `Answer: ${memorizeMember.full_name}`);
   }
 
   function nextMemorize() {
@@ -300,7 +291,7 @@ export default function WardStudy() {
             <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><p className="text-sm text-slate-400">{completedCount} of {groupedMembers.length} people at 75% or higher</p><h2 className="mt-1 text-2xl font-semibold text-white">Name that person</h2></div><div className="text-sm text-slate-400">{memorizeMembers.length} cards in rotation</div></div>
             {memorizeMember ? (
               <div className="grid overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 md:grid-cols-[minmax(0,1.15fr)_minmax(20rem,0.85fr)]">
-                <div className="aspect-square bg-slate-950 md:aspect-auto md:min-h-[38rem]"><MemberImage member={memorizeMember} className="h-full w-full object-cover" /></div>
+                <div className="aspect-square bg-slate-950 md:aspect-auto md:min-h-[38rem]"><MemberImage member={memorizeMember} className="h-full w-full object-contain p-4 md:p-8" /></div>
                 <div className="flex flex-col justify-center p-6 md:p-10">
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">Type the full name</p>
                   <p className="mt-3 text-sm text-slate-400">This person: <span className="font-semibold text-slate-200">{scores[memorizeMember.full_name] ? `${Math.round((scores[memorizeMember.full_name].correct / scores[memorizeMember.full_name].attempts) * 100)}%` : 'No attempts yet'}</span></p>
@@ -309,7 +300,7 @@ export default function WardStudy() {
                     <input id="name-answer" autoFocus value={memorizeInput} onChange={(event) => setMemorizeInput(event.target.value)} placeholder="First or full name" className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-white outline-none placeholder:text-slate-600 focus:border-cyan-400" />
                     <button type="submit" className="w-full rounded-xl bg-cyan-400 px-4 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-300">Check answer</button>
                   </form>
-                  {memorizeFeedback && <div className={`mt-5 rounded-xl border p-4 text-sm ${memorizeFeedback === 'Correct' ? 'border-emerald-800 bg-emerald-950/40 text-emerald-300' : 'border-amber-800 bg-amber-950/40 text-amber-200'}`}><p className="font-semibold">{memorizeFeedback}</p>{memorizeFeedback !== 'Correct' && <p className="mt-1 text-xs">Keep practicing this card until your score reaches 75%.</p>}<button type="button" onClick={nextMemorize} className="mt-3 rounded-lg bg-slate-800 px-3 py-2 text-xs font-semibold text-slate-200 hover:bg-slate-700">Next card</button></div>}
+                  {memorizeFeedback && <div className={`mt-5 rounded-xl border p-4 text-sm ${memorizeFeedback === 'Correct' ? 'border-emerald-800 bg-emerald-950/40 text-emerald-300' : 'border-amber-800 bg-amber-950/40 text-amber-200'}`}><p className="font-semibold">{memorizeFeedback}</p>{memorizeFeedback !== 'Correct' && <p className="mt-1 text-xs">Type the full name exactly as shown above to continue.</p>}{memorizeFeedback === 'Correct' && <button type="button" onClick={nextMemorize} className="mt-3 rounded-lg bg-slate-800 px-3 py-2 text-xs font-semibold text-slate-200 hover:bg-slate-700">Next card</button>}</div>}
                   <p className="mt-8 text-xs leading-5 text-slate-500">A person leaves the rotation once their personal accuracy reaches 75%.</p>
                 </div>
               </div>
