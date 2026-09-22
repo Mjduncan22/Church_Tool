@@ -173,6 +173,14 @@ export default function WardStudy() {
     setPracticeRevealed(false);
   }
 
+  function skipPractice() {
+    if (!practiceMember) return;
+    setPracticeQueue((current) => current.length > 1
+      ? [...current.slice(1), current[0]]
+      : current);
+    setPracticeRevealed(false);
+  }
+
   function submitMemorize(event) {
     event.preventDefault();
     if (!memorizeMember || !memorizeInput.trim()) return;
@@ -191,8 +199,15 @@ export default function WardStudy() {
         },
       };
     });
-    setMemorizeFeedback(isCorrect ? 'Correct' : `Answer: ${memorizeMember.full_name}`);
     setMemorizeInput('');
+    if (isCorrect) {
+      setMemorizeFeedback('Correct');
+      return;
+    }
+    setMemorizeFeedback(null);
+    setMemorizeQueue((current) => current.length > 1
+      ? [...current.slice(1), current[0]]
+      : current);
   }
 
   function nextMemorize() {
@@ -262,11 +277,11 @@ export default function WardStudy() {
               </div>
             </div>
             {practiceMember ? (
-              <div className={`overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl ${practiceLayout === 'side-by-side' ? 'grid md:grid-cols-2' : 'mx-auto max-w-md'}`}>
-                <div className={`${practiceLayout === 'flashcard' ? 'aspect-[4/3]' : 'aspect-square md:aspect-auto md:min-h-[28rem]'} bg-slate-950`}><MemberImage member={practiceMember} className="h-full w-full object-cover" /></div>
+              <div className={`overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl ${practiceLayout === 'side-by-side' ? 'grid md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]' : 'mx-auto max-w-md'}`}>
+                <div className={`${practiceLayout === 'flashcard' ? 'aspect-[4/3]' : 'aspect-square md:aspect-auto md:min-h-[32rem]'} bg-slate-950`}><MemberImage member={practiceMember} className="h-full w-full object-cover" /></div>
                 <div className="flex flex-col justify-between gap-5 p-5 md:p-8">
                   {practiceRevealed ? <div><p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">Study card</p><MemberDetails member={practiceMember} /></div> : <button type="button" onClick={() => setPracticeRevealed(true)} className="w-full rounded-xl border border-cyan-800 bg-cyan-950/40 px-4 py-3 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-900/50">Reveal name and details</button>}
-                  {practiceRevealed && <button type="button" onClick={markPracticeMemorized} className="w-full rounded-xl bg-emerald-400 px-4 py-3 text-sm font-semibold text-emerald-950 transition hover:bg-emerald-300">I have memorized this person</button>}
+                  <div className="grid gap-3 sm:grid-cols-2"><button type="button" onClick={skipPractice} className="rounded-xl border border-slate-700 bg-slate-800 px-4 py-3 text-sm font-semibold text-slate-200 transition hover:bg-slate-700">Skip</button>{practiceRevealed && <button type="button" onClick={markPracticeMemorized} className="rounded-xl bg-emerald-400 px-4 py-3 text-sm font-semibold text-emerald-950 transition hover:bg-emerald-300">I have memorized this person</button>}</div>
                 </div>
               </div>
             ) : <EmptyState title="You cleared the deck" detail="Exit Practice mode and come back any time to review everyone again." />}
@@ -285,7 +300,7 @@ export default function WardStudy() {
             <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><p className="text-sm text-slate-400">{completedCount} of {groupedMembers.length} people at 75% or higher</p><h2 className="mt-1 text-2xl font-semibold text-white">Name that person</h2></div><div className="text-sm text-slate-400">{memorizeMembers.length} cards in rotation</div></div>
             {memorizeMember ? (
               <div className="grid overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 md:grid-cols-[minmax(0,1.15fr)_minmax(20rem,0.85fr)]">
-                <div className="aspect-square bg-slate-950 md:aspect-auto md:min-h-[34rem]"><MemberImage member={memorizeMember} className="h-full w-full object-cover" /></div>
+                <div className="aspect-square bg-slate-950 md:aspect-auto md:min-h-[38rem]"><MemberImage member={memorizeMember} className="h-full w-full object-cover" /></div>
                 <div className="flex flex-col justify-center p-6 md:p-10">
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">Type the full name</p>
                   <p className="mt-3 text-sm text-slate-400">This person: <span className="font-semibold text-slate-200">{scores[memorizeMember.full_name] ? `${Math.round((scores[memorizeMember.full_name].correct / scores[memorizeMember.full_name].attempts) * 100)}%` : 'No attempts yet'}</span></p>
